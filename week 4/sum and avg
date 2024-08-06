@@ -1,0 +1,45 @@
+//sum and avg
+l=[]
+n=int(input('enter the values:'))
+for i in range(n):
+	ele=int(input('enter the values :'))
+	l.append(ele)
+a=sum(l)
+print(a)
+avg=n/len(l)
+print(avg)
+
+//reverse list
+l=[]
+n=int(input('enter the values:'))
+for i in range(n):
+	ele=int(input('enter the values :'))
+	l.append(ele)
+l.reverse()
+print(l)
+
+\\inter change the values
+l=[]
+n=int(input('enter the values:'))
+for i in range(n):
+	ele=int(input('enter the values :'))
+	l.append(ele)
+l[0],l[-1]=l[-1],l[0]
+print(l)
+// even and odd
+l=[]
+even=[]
+odd=[]
+n=int(input('enter the values:'))
+for i in range(n):
+	ele=int(input('enter the values :'))
+	l.append(ele)
+
+print(l)
+for i in range(n):
+	if(l[i]%2==0):
+		even.append(l[i])
+	else:
+		odd.append(l[i])
+print(even)
+print(odd)
